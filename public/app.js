@@ -64,3 +64,8 @@ if ($cart) {
 }
 
 M.Tabs.init(document.querySelectorAll('.tabs'));
+
+document.addEventListener('DOMContentLoaded', function () {
+  const elems = document.querySelectorAll('.sidenav');
+  M.Sidenav.init(elems);
+});
