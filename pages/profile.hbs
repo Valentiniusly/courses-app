@@ -1,12 +1,12 @@
-<h1>Profile</h1>
+<h1 class="center-align">Profile</h1>
 
 <div class="row">
 	<div class="col s6">
 		{{#if user.avatarUrl}}
 			<img
-				class="avatar"
-			src="/{{user.avatarUrl}}"
-			alt="avatar-{{user.name}}"
+				class="avatar responsive-img"
+				src="/{{user.avatarUrl}}"
+				alt="avatar-{{user.name}}"
 			>
 		{{else}}
 			<p>No avatar</p>

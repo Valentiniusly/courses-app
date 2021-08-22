@@ -1,16 +1,16 @@
-<h1>Courses</h1>
+<h1 class="center-align">Courses</h1>
 
 {{#if courses.length}}
 	<div class="row">
 {{#each courses}}
-    <div class="col s4">
+    <div class="col s12 m6 xl4">
       <div class="card">
-        <div class="card-image">
+        <div class="card-image ">
           <img src='{{image}}' alt={{title}}>
         </div>
         <div class="card-content">
           <span class="card-title">{{title}}</span>
-          <p class="price">{{price}}</p>
+          <p class="price flow-text">{{price}}</p>
         </div>
         <div class="card-action actions">
           <a href="/courses/{{_id}}" target="_blank">Open course</a>

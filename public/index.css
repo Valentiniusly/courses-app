@@ -1,5 +1,5 @@
 .nav-wrapper {
-	padding: 0 2rem;
+	padding: 0 1.5rem;
 }
 
 .card img {
@@ -58,4 +58,19 @@
 .avatar {
 	max-width: 300px;
 	height: auto;
+}
+
+@media screen and (max-width: 992px){
+	a.brand-logo {
+		left: 8rem;
+	}
+}
+@media screen and (max-width: 425px) {
+	h1 {
+		font-size: 3.5rem;
+	}
+	a.brand-logo {
+		font-size: 1.5rem;
+		left: 6rem;
+	}
 }
